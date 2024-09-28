@@ -57,7 +57,7 @@
 
 ### 📈 GitHub Stats:
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=peter-wang-ucb&show_icons=true&locale=en" alt="peter-wang-ucb" />
+  <img src="https://github-readme-stats.vercel.app/api?username=pjwang24&show_icons=true&locale=en" alt="pjwang24" />
 </p>
 
 ---
