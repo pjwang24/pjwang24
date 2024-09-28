@@ -60,6 +60,12 @@
   <img src="https://github-readme-stats.vercel.app/api?username=pjwang24&show_icons=true&locale=en" alt="pjwang24" />
 </p>
 
+### 🚀 Top Languages:
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pjwang24&layout=compact&theme=radical" alt="Top Languages" />
+</p>
+
+
 ---
 
 ### 🚀 Notable Projects:
