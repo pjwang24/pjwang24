@@ -63,7 +63,7 @@
 ---
 
 ### 🚀 Notable Projects:
-- **[Finger-Vein Recognition using NASNet](https://github.com/your-repo-link)**  
+- **[Finger-Vein Recognition using NASNet](https://ieeexplore.ieee.org/abstract/document/9650980?casa_token=Cc75lRiiE1cAAAAA:d9Aqa3ymzm4zzQmamL8yWa1aD4uDKEdXhgbTstywZtPgRTWvgEIhQgkmhyZNZs-LIxL16LGtrOM)**  
   Published in IEEE ISPACS 2021, exploring deep learning for biometric authentication.
   
 - **[EV Optimization using ML](https://github.com/your-repo-link)**  
