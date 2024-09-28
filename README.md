@@ -66,10 +66,10 @@
 - **[Finger-Vein Recognition using NASNet](https://ieeexplore.ieee.org/abstract/document/9650980?casa_token=Cc75lRiiE1cAAAAA:d9Aqa3ymzm4zzQmamL8yWa1aD4uDKEdXhgbTstywZtPgRTWvgEIhQgkmhyZNZs-LIxL16LGtrOM)**  
   Published in IEEE ISPACS 2021, exploring deep learning for biometric authentication.
   
-- **[EV Optimization using ML](https://github.com/your-repo-link)**  
+- **[EV Optimization using ML](https://drive.google.com/file/d/1eJ1-RvuOJprvE-OXcbFbRktth9Zmozam/view)**  
   Collaborated with Honda Research Institute to optimize electric vehicle charging and routing using data science techniques.
 
-- **[More Projects](https://github.com/peter-wang-ucb?tab=repositories)**
+- **[More Projects](https://github.com/pjwang24?tab=repositories)**
 
 ---
 
