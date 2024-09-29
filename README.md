@@ -17,7 +17,7 @@
 ### 🔗 Connect with me:
 - **Email:** pjwang2324@berkeley.edu
 - **LinkedIn:** [Peter Wang](https://www.linkedin.com/in/peterwang-eecs/)
-- **Website/Portfolio:** [https://pjwang24.github.io/]
+- **Website/Portfolio:** https://pjwang24.github.io/
 
 ---
 
