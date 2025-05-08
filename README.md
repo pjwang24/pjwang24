@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  Enthusiastic about AI, Machine Learning, and High-Performance Computing.
+  Enthusiastic about High-Performance Computing, AI/ML, Computer Architecture.
   I’m currently expanding my expertise in <strong>hardware design</strong> and <strong>GPU programming</strong> using CUDA.
 </p>
 
