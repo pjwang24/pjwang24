@@ -9,7 +9,7 @@
 
 <p align="center">
   Enthusiastic about High-Performance Computing, AI/ML, Computer Architecture.
-  I’m currently expanding my expertise in <strong>hardware design</strong> and <strong>parallel programming</strong> using AWS NKI on Traininum.
+  I’m currently expanding my expertise in <strong>hardware design</strong> and <strong>parallel programming</strong> using ARM AMBA on the new Compute Subsytem.
 </p>
 
 ---
