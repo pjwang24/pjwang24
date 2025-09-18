@@ -1,178 +1,84 @@
-<!-- Liquid Glass Header -->
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=transparent&fontColor=ffffff&text=Peter%20Wang&height=150&fontSize=60&desc=Silicon%20Architecture%20•%20Hardware%20Engineering&descAlignY=75&descAlign=50&fontAlignY=30" alt="header"/>
-</div>
-
-<div align="center">
-  <a href="mailto:pjwang2324@berkeley.edu"><img src="https://img.shields.io/badge/pjwang2324@berkeley.edu-000000?style=flat-square&logo=apple&logoColor=white" alt="Email"></a>
-  <a href="https://linkedin.com/in/peterwang-eecs"><img src="https://img.shields.io/badge/peterwang--eecs-000000?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/pjwang24"><img src="https://img.shields.io/badge/pjwang24-000000?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
-</div>
-
-<br>
-<br>
-
-<div align="center">
-  <h3>Designing the atoms of computation.</h3>
-</div>
-
-<br>
+<h1 align="center">Hi 👋, I'm Peter Wang</h1>
+<h3 align="center">Computer Science student at UC Berkeley</h3>
 
 ---
 
-<br>
+<p align="center"> 
+  <img src="https://komarev.com/ghpvc/?username=peter-wang-ucb&label=Profile%20views&color=0e75b6&style=flat" alt="peter-wang-ucb" />
+</p>
 
-## Silicon Engineering
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### ARM Neoverse CSS
-*SoC Architecture • Summer 2025*
-
-Engineering next-generation compute subsystems. Building inference pipelines to classify 20M+ pins across IP instances. Mapping AMBA protocols (CHI, AXI, APB) for timing closure.
-
-```
-Performance: 85% RAM reduction
-Processing: ~15 min for SoC-scale
-Architecture: Die-level centroid mapping
-```
-
-</td>
-<td width="50%" valign="top">
-
-### Berkeley SLICE Lab
-*AWS Trainium Research • Current*
-
-Architecting 2D systolic arrays for Zebra accelerator. Extending TeAAL specifications for AWS Trainium, building PyTorch-to-silicon compilation framework.
-
-```
-Design: Flexible systolic architecture
-Framework: TeAAL modular specs
-Target: Profile-guided optimization
-```
-
-</td>
-</tr>
-</table>
-
-<br>
+<p align="center">
+  Enthusiastic about High-Performance Computing, AI/ML, Computer Architecture.
+  I’m currently expanding my expertise in <strong>hardware design</strong> and <strong>parallel programming</strong> using ARM AMBA on the new Compute Subsytem.
+</p>
 
 ---
 
-<br>
-
-## ASIC & Architecture
-
-<div align="center">
-
-### RISC-V Processor • 3-Stage Pipeline
-```verilog
-RTL → Synthesis → Place & Route → GDS
-Technology: SKY130 PDK
-Features: Hazard resolution, ALU/memory interfaces
-Optimization: Timing closure, die area, power
-```
-
-### AWS Trainium • Kernel Optimization
-```
-Interface: Neuron Kernel Interface (NKI)
-Mapping: Engine-aware compute scheduling
-Memory: Manual scheduling for inference
-Latency: Sub-millisecond execution
-```
-
-### Branch Prediction • Perceptron Design
-```
-Algorithm: Weighted history correlation
-Performance: ~13% misprediction reduction
-Benchmark: QSort 0.176 → 0.153
-Implementation: Synthetic correlated-branch tests
-```
-
-</div>
-
-<br>
+### 🔗 Connect with me:
+- **Email:** pjwang2324@berkeley.edu
+- **LinkedIn:** [Peter Wang](https://www.linkedin.com/in/peterwang-eecs/)
+- **Website/Portfolio:** https://pjwang24.github.io/
 
 ---
 
-<br>
+### 🛠️ Languages and Tools:
 
-## Tools & Silicon
-
-<div align="center">
-
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-                        EDA TOOLS                        
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-Synthesis       Synopsys DC • Yosys • Cadence Genus
-Simulation      VCS • ModelSim • Vivado • GTKWave  
-Physical        Innovus • OpenROAD • Magic
-PDK             SKY130 • ASAP7
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-                      LANGUAGES                         
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-HDL             Verilog • SystemVerilog • VHDL • Chisel
-Systems         C/C++ • CUDA • Go • Assembly
-Analysis        Python • MATLAB • Julia
-Data            Polars • NumPy • Pandas • PyTorch
-```
-
-</div>
-
-<br>
-
----
-
-<br>
-
-## Research & Publications
-
-**Finger-Vein Recognition using NASNet** • IEEE ISPACS 2021  
-*Custom CUDA kernels for convolutional acceleration. 36% training time reduction.*  
-[`DOI: 10.1109/ISPACS53179.2021.9650980`](https://ieeexplore.ieee.org/abstract/document/9650980)
-
-**Potential of Telematics Data in Data Science** • Honda Research Institute  
-*L2 Ridge regression for EV optimization. 100K+ driver sessions analyzed.*
-
-<br>
+<p>
+  <a href="https://www.python.org" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
+  </a> 
+  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/>
+  </a> 
+  <a href="https://www.java.com" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> 
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
+  </a> 
+  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> 
+  </a>
+  <a href="https://nodejs.org" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> 
+  </a>
+  <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/>
+  </a>
+  <a href="https://expressjs.com" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/>
+  </a>
+  <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> 
+  </a> 
+</p>
 
 ---
 
-<br>
+### 🚀 Top Languages:
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pjwang24&layout=compact&theme=radical" alt="Top Languages" />
+</p>
 
-## Recognition
-
-<div align="center">
-
-Jim & Donna Gray Endowment • `$10,000`  
-Leadership Scholar Award • `$2,000`  
-IEEE Member • EECS Peer Advisor
-
-**UC Berkeley** • Computer Science B.S. • Electrical Engineering Minor • `GPA: 3.57`
-
-</div>
-
-<br>
 
 ---
 
-<br>
+### 🚀 Notable Projects:
+- **[Finger-Vein Recognition using NASNet](https://ieeexplore.ieee.org/abstract/document/9650980?casa_token=Cc75lRiiE1cAAAAA:d9Aqa3ymzm4zzQmamL8yWa1aD4uDKEdXhgbTstywZtPgRTWvgEIhQgkmhyZNZs-LIxL16LGtrOM)**  
+  Published in IEEE ISPACS 2021, exploring deep learning for biometric authentication.
+  
+- **[EV Optimization using ML](https://drive.google.com/file/d/1eJ1-RvuOJprvE-OXcbFbRktth9Zmozam/view)**  
+  Collaborated with Honda Research Institute to optimize electric vehicle charging and routing using data science techniques.
 
-<div align="center">
+- **[More Projects](https://github.com/pjwang24?tab=repositories)**
 
-### Currently exploring
+---
 
-`Neuromorphic Computing` `Hardware Security` `Near-Data Processing` `Quantum Architecture`
+### 🌱 Currently Learning:
+- **CUDA Programming**: Leveraging GPUs for high-performance computing
+- **System-on-Chip (SoC) Design**: Focusing on CPU design verification and debug
 
-<br>
+---
 
-*"The best way to predict the future is to invent it."*  
-*— Alan Kay*
-
-</div>
+### 🤝 Let's Collaborate!
+I’m open to discussing potential research opportunities or collaborations in **AI/ML**, **high-performance computing**, or **hardware design**. Feel free to reach out!
