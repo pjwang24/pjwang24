@@ -1,20 +1,19 @@
-<!-- Glass Morphism Header -->
+<!-- Liquid Glass Header -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=transparent&fontColor=ffffff&text=Peter%20Wang&height=150&fontSize=60&desc=Hardware%20Engineer%20•%20UC%20Berkeley&descAlignY=75&descAlign=50" alt="header"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=transparent&fontColor=ffffff&text=Peter%20Wang&height=150&fontSize=60&desc=Silicon%20Architecture%20•%20Hardware%20Engineering&descAlignY=75&descAlign=50&fontAlignY=30" alt="header"/>
 </div>
 
 <div align="center">
-  <a href="mailto:pjwang2324@berkeley.edu"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://linkedin.com/in/peterwang-eecs"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/pjwang24"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="tel:909-551-5416"><img src="https://img.shields.io/badge/Phone-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Phone"></a>
+  <a href="mailto:pjwang2324@berkeley.edu"><img src="https://img.shields.io/badge/pjwang2324@berkeley.edu-000000?style=flat-square&logo=apple&logoColor=white" alt="Email"></a>
+  <a href="https://linkedin.com/in/peterwang-eecs"><img src="https://img.shields.io/badge/peterwang--eecs-000000?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://github.com/pjwang24"><img src="https://img.shields.io/badge/pjwang24-000000?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
 </div>
 
 <br>
 <br>
 
 <div align="center">
-  <h3>Building silicon that thinks.</h3>
+  <h3>Designing the atoms of computation.</h3>
 </div>
 
 <br>
@@ -23,28 +22,36 @@
 
 <br>
 
-## Current
+## Silicon Engineering
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ARM • Solutions Engineering Intern
-*SoC Architecture Division*
+### ARM Neoverse CSS
+*SoC Architecture • Summer 2025*
 
-Designing intelligence into Neoverse CSS architecture. Analyzing 20M+ pins across IP instances, building inference pipelines for AMBA protocol classification. 
+Engineering next-generation compute subsystems. Building inference pipelines to classify 20M+ pins across IP instances. Mapping AMBA protocols (CHI, AXI, APB) for timing closure.
 
-**Impact:** 85% RAM reduction for SoC-scale analysis.
+```
+Performance: 85% RAM reduction
+Processing: ~15 min for SoC-scale
+Architecture: Die-level centroid mapping
+```
 
 </td>
 <td width="50%" valign="top">
 
-### Berkeley SLICE Lab • Research
-*AWS Trainium Architecture*
+### Berkeley SLICE Lab
+*AWS Trainium Research • Current*
 
-Developing 2D systolic arrays for the Zebra accelerator. Extending TeAAL modular architecture specifications to support AWS Trainium with PyTorch integration.
+Architecting 2D systolic arrays for Zebra accelerator. Extending TeAAL specifications for AWS Trainium, building PyTorch-to-silicon compilation framework.
 
-**Focus:** Profile-guided optimization for ML workloads.
+```
+Design: Flexible systolic architecture
+Framework: TeAAL modular specs
+Target: Profile-guided optimization
+```
 
 </td>
 </tr>
@@ -56,16 +63,33 @@ Developing 2D systolic arrays for the Zebra accelerator. Extending TeAAL modular
 
 <br>
 
-## Featured Work
+## ASIC & Architecture
 
 <div align="center">
 
-| | |
-|---|---|
-| **3-Stage RISC-V Processor** | Full RTL-to-GDS flow. Pipelined CPU with hazard resolution, synthesized on SKY130 PDK. Optimized for timing, area, and power. |
-| **AWS Trainium Kernels** | Custom NKI kernels with engine-aware compute mapping. Manual memory scheduling for low-latency inference. |
-| **Perceptron Branch Predictor** | Weighted history predictor achieving 13% misprediction reduction on synthetic benchmarks. |
-| **Finger-Vein Recognition** | [IEEE ISPACS 2021](https://ieeexplore.ieee.org/abstract/document/9650980). NASNet with custom CUDA kernels, 36% training acceleration. |
+### RISC-V Processor • 3-Stage Pipeline
+```verilog
+RTL → Synthesis → Place & Route → GDS
+Technology: SKY130 PDK
+Features: Hazard resolution, ALU/memory interfaces
+Optimization: Timing closure, die area, power
+```
+
+### AWS Trainium • Kernel Optimization
+```
+Interface: Neuron Kernel Interface (NKI)
+Mapping: Engine-aware compute scheduling
+Memory: Manual scheduling for inference
+Latency: Sub-millisecond execution
+```
+
+### Branch Prediction • Perceptron Design
+```
+Algorithm: Weighted history correlation
+Performance: ~13% misprediction reduction
+Benchmark: QSort 0.176 → 0.153
+Implementation: Synthetic correlated-branch tests
+```
 
 </div>
 
@@ -75,15 +99,29 @@ Developing 2D systolic arrays for the Zebra accelerator. Extending TeAAL modular
 
 <br>
 
-## Technical
+## Tools & Silicon
 
 <div align="center">
 
-**Design** • Verilog • SystemVerilog • VHDL • Chisel  
-**Verification** • VCS • ModelSim • GTKWave • CocoTB  
-**Physical** • Synopsys DC • Cadence Genus • Innovus • OpenROAD  
-**Programming** • C/C++ • CUDA • Python • Go  
-**Frameworks** • PyTorch • Polars • NumPy • Pandas  
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                        EDA TOOLS                        
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Synthesis       Synopsys DC • Yosys • Cadence Genus
+Simulation      VCS • ModelSim • Vivado • GTKWave  
+Physical        Innovus • OpenROAD • Magic
+PDK             SKY130 • ASAP7
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                      LANGUAGES                         
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+HDL             Verilog • SystemVerilog • VHDL • Chisel
+Systems         C/C++ • CUDA • Go • Assembly
+Analysis        Python • MATLAB • Julia
+Data            Polars • NumPy • Pandas • PyTorch
+```
 
 </div>
 
@@ -93,12 +131,14 @@ Developing 2D systolic arrays for the Zebra accelerator. Extending TeAAL modular
 
 <br>
 
-## Education
+## Research & Publications
 
-**UC Berkeley** • B.S. Computer Science, Minor in Electrical Engineering • 2026  
-Jim & Donna Gray Endowment Award • Leadership Scholar • IEEE Member
+**Finger-Vein Recognition using NASNet** • IEEE ISPACS 2021  
+*Custom CUDA kernels for convolutional acceleration. 36% training time reduction.*  
+[`DOI: 10.1109/ISPACS53179.2021.9650980`](https://ieeexplore.ieee.org/abstract/document/9650980)
 
-Relevant: Computer Architecture • Digital Design & Integrated Circuits • Microelectronic Devices • Machine Learning
+**Potential of Telematics Data in Data Science** • Honda Research Institute  
+*L2 Ridge regression for EV optimization. 100K+ driver sessions analyzed.*
 
 <br>
 
@@ -106,11 +146,17 @@ Relevant: Computer Architecture • Digital Design & Integrated Circuits • Mic
 
 <br>
 
-## Previously
+## Recognition
 
-**IEEE** • Machine Learning Engineer • *Published research on biometric authentication*  
-**Honda Research Institute** • AI/ML Intern • *EV optimization with telematics data*  
-**UC Berkeley** • EECS Peer Advisor • *First advisor for 1,000+ students*
+<div align="center">
+
+Jim & Donna Gray Endowment • `$10,000`  
+Leadership Scholar Award • `$2,000`  
+IEEE Member • EECS Peer Advisor
+
+**UC Berkeley** • Computer Science B.S. • Electrical Engineering Minor • `GPA: 3.57`
+
+</div>
 
 <br>
 
@@ -119,7 +165,14 @@ Relevant: Computer Architecture • Digital Design & Integrated Circuits • Mic
 <br>
 
 <div align="center">
-  
-*"Simplicity is the ultimate sophistication."*
+
+### Currently exploring
+
+`Neuromorphic Computing` `Hardware Security` `Near-Data Processing` `Quantum Architecture`
+
+<br>
+
+*"The best way to predict the future is to invent it."*  
+*— Alan Kay*
 
 </div>
