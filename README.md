@@ -24,8 +24,9 @@
 
 ### Featured Projects
 
-**Bare-Metal MNIST on Custom RISC-V + INT8 Matmul Accelerator**
-`SystemVerilog · Sky130 · Verilator · OpenLane`
+<details open>
+<summary><strong>Bare-Metal MNIST on Custom RISC-V + INT8 Matmul Accelerator</strong> &nbsp; <code>SystemVerilog · Sky130 · Verilator · OpenLane</code></summary>
+<br>
 
 End-to-end inference on a custom RV32IM core with a decoupled 4x4 INT8 outer-product matmul engine. 100/100 MNIST accuracy across a 2-layer MLP, verified in cycle-accurate simulation and pushed through a Sky130 OpenLane RTL-to-GDS flow.
 
@@ -33,10 +34,11 @@ End-to-end inference on a custom RV32IM core with a decoupled 4x4 INT8 outer-pro
 |:---:|:---:|:---:|:---:|
 | ~20K | **24.45x** | 1.44 mm² | 100% |
 
----
+</details>
 
-**3-Stage Pipelined RISC-V CPU & Cache**
-`Verilog · Sky130 PDK`
+<details open>
+<summary><strong>3-Stage Pipelined RISC-V CPU & Cache</strong> &nbsp; <code>Verilog · Sky130 PDK</code></summary>
+<br>
 
 RV32I core with GShare branch predictor and 2-way set-associative write-back cache. Parallel ALU architecture with a 5-entry fetch-decode FIFO.
 
@@ -44,26 +46,31 @@ RV32I core with GShare branch predictor and 2-way set-associative write-back cac
 |:---:|:---:|:---:|
 | **1.05** | 40%+ | 3 |
 
----
+</details>
 
-**PackBits RLE Decompression Accelerator Tapeout**
-`Chisel · TSMC 16nm · Expected Spring 2026`
+<details>
+<summary><strong>PackBits RLE Decompression Accelerator Tapeout</strong> &nbsp; <code>Chisel · TSMC 16nm · Expected Spring 2026</code></summary>
+<br>
 
 Hardware accelerator for lossless PackBits decompression with a custom RISC-V instruction interface. Full RTL-to-GDS on TSMC 16nm.
 
----
+</details>
 
-**Sparse Tensor Accelerator Modeling**
-`TeAAL · Python`
+<details>
+<summary><strong>Sparse Tensor Accelerator Modeling</strong> &nbsp; <code>TeAAL · Python</code></summary>
+<br>
 
 Modeled the Trapezoid accelerator — 2D spatial array with multi-fiber intersection units. Evaluated Gustavson vs inner-product dataflows for PE utilization.
 
----
+</details>
 
-**AWS Trainium Kernel Optimization**
-`Neuron Kernel Interface · Python`
+<details>
+<summary><strong>AWS Trainium Kernel Optimization</strong> &nbsp; <code>Neuron Kernel Interface · Python</code></summary>
+<br>
 
 Extending TeAAL for inference kernels with engine-aware compute mapping and manual memory scheduling on AWS Trainium.
+
+</details>
 
 ---
 
@@ -81,9 +88,9 @@ Extending TeAAL for inference kernels with engine-aware compute mapping and manu
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=pjwang24&theme=dark&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=pjwang24&theme=default&hide_border=true" />
-    <img alt="GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=pjwang24&theme=default&hide_border=true" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=pjwang24&theme=dark&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=pjwang24&theme=default&hide_border=true" />
+    <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=pjwang24&theme=default&hide_border=true" />
   </picture>
 </p>
 
